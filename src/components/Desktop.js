@@ -432,7 +432,7 @@ Let's discuss your next project!
 const Desktop = () => {
   const [openWindows, setOpenWindows] = useState([]);
   const [internetExplorerOpen, setInternetExplorerOpen] = useState(false);
-  const [selectedItem, setSelectedItem] = useState(null);
+ 
   const [startMenuOpen, setStartMenuOpen] = useState(false);
   const [notepadOpen, setNotepadOpen] = useState(false);
   const [calculatorOpen, setCalculatorOpen] = useState(false);
