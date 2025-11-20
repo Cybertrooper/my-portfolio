@@ -558,33 +558,21 @@ const Desktop = () => {
 
   return (
     
-   <div 
-      style={{
-        height: '100vh',
-        padding: '20px',
-        fontFamily: 'MS Sans Serif, Arial, sans-serif',
-        fontSize: '11px',
-        cursor: 'default',
-        position: 'relative',
-        overflow: 'hidden',
-        display: 'flex',
-        flexDirection: 'column'
-      }}
-      onClick={handleDesktopClick}
-    >
-      {/* Spline component as the background */}
-      <div style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        zIndex: 0
-      }}>
-        <Spline
-          scene="https://prod.spline.design/Mg0XA7GWhhiaUqtj/scene.splinecode" 
-        />
-      </div>
+  <div 
+  style={{
+    height: '100vh',
+    padding: '20px',
+    fontFamily: 'MS Sans Serif, Arial, sans-serif',
+    fontSize: '11px',
+    cursor: 'default',
+    position: 'relative',
+    overflow: 'hidden',
+    display: 'flex',
+    flexDirection: 'column',
+    backgroundColor: '#008080' // Windows 95 teal
+  }}
+  onClick={handleDesktopClick}
+>
       {/* Desktop Area - Takes up all space except taskbar */}
       <div style={{
         flex: 1,

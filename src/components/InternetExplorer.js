@@ -9,7 +9,7 @@ const InternetExplorer = ({ onClose }) => {
   const [error, setError] = useState(null);
   const [isMaximized, setIsMaximized] = useState(false);
   const [windowPosition, setWindowPosition] = useState({ x: 150, y: 150 });
-  const [windowSize, setWindowSize] = useState({ width: 800, height: 600 });
+const [windowSize] = useState({ width: 800, height: 600 });
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const iframeRef = useRef(null);
